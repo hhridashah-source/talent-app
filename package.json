@@ -1,0 +1,23 @@
+{
+  "name": "talent-app",
+  "version": "1.0.0",
+  "description": "Interactive platform for talents with AI feedback and tutorials",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix backend\" \"npm run start --prefix frontend\"",
+    "build": "npm run build --prefix backend && npm run build --prefix frontend",
+    "start": "npm start --prefix backend"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  },
+  "keywords": [
+    "talent",
+    "feedback",
+    "ai",
+    "leaderboard",
+    "video"
+  ],
+  "author": "hhridashah-source",
+  "license": "MIT"
+}
